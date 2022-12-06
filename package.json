@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "start": "node server/index.js"
+    "start": "node server/index.js",
+    "test": "npm run build && mocha test/**/*.spec.js --exit"
   },
   "dependencies": {
     "babel": "^6.23.0",
