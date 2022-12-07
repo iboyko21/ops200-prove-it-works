@@ -75,8 +75,6 @@ describe('End to End Tests', () => {
         .then(input => expect(input).to.exist)
     );
 
-
-
     it('should correctly calculate mortgage', () =>
         pageObject
         .wait()
