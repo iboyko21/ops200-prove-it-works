@@ -15,4 +15,4 @@ describe('Mortgage Calculator', () => {
     it('should return correct monthly payment', () => {
         expect(mortgage.monthlyPayment()).to.equal('1389.35');
     });
-})
+});
